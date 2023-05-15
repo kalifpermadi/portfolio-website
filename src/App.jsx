@@ -6,7 +6,7 @@ import "./index.css";
 function App() {
   return (
     <main className="h-[100dvh] bg-primary">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-website">
         <Navbar />
         <AnimationRoutes />
       </BrowserRouter>
